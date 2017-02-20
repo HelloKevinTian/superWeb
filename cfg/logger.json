@@ -1,0 +1,5 @@
+{
+  "filename" : "logs/super_web.log",
+  "levels": "ALL",
+  "console": true
+}
