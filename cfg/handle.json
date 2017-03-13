@@ -19,8 +19,38 @@
 	"path": "login",
 	"type": "post"
 }, {
-	"description": "get player",
+	"description": "test",
 	"url": "/test/test",
 	"path": "test/test",
+	"type": "post"
+}, {
+	"description": "客户获取",
+	"url": "/tool/user_get",
+	"path": "tool/user_get",
+	"type": "post"
+}, {
+	"description": "客户添加",
+	"url": "/tool/user_add",
+	"path": "tool/user_add",
+	"type": "post"
+}, {
+	"description": "客户修改",
+	"url": "/tool/user_update",
+	"path": "tool/user_update",
+	"type": "post"
+}, {
+	"description": "客户删除",
+	"url": "/tool/user_delete",
+	"path": "tool/user_delete",
+	"type": "post"
+}, {
+	"description": "获取跟进信息",
+	"url": "/tool/extra_get",
+	"path": "tool/extra_get",
+	"type": "post"
+}, {
+	"description": "获取跟进信息",
+	"url": "/tool/extra_add",
+	"path": "tool/extra_add",
 	"type": "post"
 }]

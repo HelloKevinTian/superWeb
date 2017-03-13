@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="/lib/ligerUI/skins/Aqua/css/ligerui-all.css" rel="stylesheet" type="text/css" />
+    <link href="/lib/ligerUI/skins/ligerui-icons.css" rel="stylesheet" type="text/css"/>
+    <link href="/lib/ligerUI/skins/Gray/css/all.css" rel="stylesheet" type="text/css"/>
+    <script src="/lib/jquery/jquery-1.3.2.min.js" type="text/javascript"></script>
+    <script src="/lib/ligerUI/js/ligerui.all.js" type="text/javascript"></script>
+    <script src="/lib/ligerUI/js/plugins/ligerTab.js"></script>
+    <script src="/lib/jquery.cookie.js"></script>
+    <script src="/lib/json2.js"></script>
+    <script src="/lib/moment.js"></script>
+    <script src="/lib/underscore.js"></script>
+    <!-- 自定义js -->
+    <script src="/js/tool/user.js"></script>
+    <script src="/js/util.js"></script>
+    <style type="text/css">
+        .l-table-edit {}
+        .l-table-edit-td{ padding:4px;}
+        .l-button-submit,.l-button-reset{width:80px; float:left; margin-left:10px; padding-bottom:2px;}
+    </style>
+</head>
+
+<body style="overflow-x:hidden; padding:2px;">
+    <div id="layout" style="margin: -1px">
+        <div position="center" title="客户检索">
+            <div id="maingrid"></div>
+            <div id="filter_btn" style="position:absolute;left:50px;"></div>
+        </div>
+        <div position="right" title="基础信息">
+            <div id="detail"></div>
+        </div>
+
+        <div id="modify_content" title="修改客户信息">
+            <div id="modify_form"></div>
+            <div id="modify_btn" style="position:absolute;left:100px;" ></div>
+            <div id="modify_btn1" style="position:absolute;left:300px;" ></div>
+        </div>
+        <div id="add_content" title="录入客户信息">
+            <div id="add_form"></div>
+            <div id="add_btn" style="position:absolute;left:100px;" ></div>
+            <div id="add_btn1" style="position:absolute;left:300px;" ></div>
+        </div>
+        <div id="extra_content" title="跟进客户信息">
+            <div id="extra_form"></div>
+            <div id="extra_add_btn" style="position:absolute;left:100px;" ></div>
+            <div id="extra_add_btn1" style="position:absolute;left:300px;" ></div>
+            <br />
+            <br />
+            <br />
+            <div id="extra"></div>
+        </div>
+    </div>
+
+    <div id="toolbar"></div>
+    <br />
+
+</body>
+</html>
